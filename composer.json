@@ -1,6 +1,6 @@
 {
     "name": "gember/identity-generator-symfony",
-    "description": "Gember Identity generator (gember/event-sourcing) implementation based on symfony/uid",
+    "description": "Gember Event Sourcing Identity Generator adapter based on symfony/uid",
     "license": "MIT",
     "type": "library",
     "keywords": [
