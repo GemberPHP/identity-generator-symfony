@@ -32,6 +32,7 @@
         "phpunit/phpunit": "^12.1",
         "rector/rector": "^2.0",
         "rregeer/phpunit-coverage-check": "^0.3.1",
+        "scrutinizer/ocular": "^1.9",
         "shipmonk/composer-dependency-analyser": "^1.5",
         "symfony/property-access": "^7.1"
     },
