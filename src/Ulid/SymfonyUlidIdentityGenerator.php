@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Gember\IdentityGeneratorSymfony\Ulid;
 
-use Gember\EventSourcing\Util\Generator\Identity\IdentityGenerator;
+use Gember\DependencyContracts\Util\Generator\Identity\IdentityGenerator;
 use Override;
 use Symfony\Component\Uid\Factory\UlidFactory;
 
