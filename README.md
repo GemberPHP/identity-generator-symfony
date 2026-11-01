@@ -47,14 +47,14 @@ If you're not using the bundle, you can bind it directly to the `IdentityGenerat
 
 ```yaml
 # Bind ULID Identity Generator to interface
-Gember\EventSourcing\Util\Generator\Identity\IdentityGenerator:
+Gember\DependencyContracts\Util\Generator\Identity\IdentityGenerator:
   class: Gember\IdentityGeneratorSymfony\Ulid\SymfonyUlidIdentityGenerator
   arguments:
-    - '@ Symfony\Component\Uid\Factory\UlidFactory'
+    - '@Symfony\Component\Uid\Factory\UlidFactory'
 
 # OR bind UUID (v4) Identity Generator to interface
-Gember\EventSourcing\Util\Generator\Identity\IdentityGenerator:
+Gember\DependencyContracts\Util\Generator\Identity\IdentityGenerator:
   class: Gember\IdentityGeneratorSymfony\Uuid\SymfonyUuidIdentityGenerator
   arguments:
-    - '@ Symfony\Component\Uid\Factory\UuidFactory'
+    - '@Symfony\Component\Uid\Factory\UuidFactory'
 ```
